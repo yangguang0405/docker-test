@@ -5,8 +5,6 @@ export PATH=$PATH:~/node-v8.5.0-linux-x64/bin
 
 mkdir -p "/tmp/Testude 365/agent"
 echo $PWD
-APPID=$1
-APPSECRET=$2
 echo $APPID
 echo $APPSECRET
 
