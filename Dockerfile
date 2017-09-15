@@ -6,7 +6,10 @@ WORKDIR /app
 # Copy the current directory contents into the container at /app
 ADD . /app
 
-RUN apt-get install openjdk-8-jdk
+RUN apt-get -qqy update && \
+    apt-get -qqy --no-install-recommends install \
+    openjdk-8-jdk \
+&& rm -rf /var/lib/apt/lists/*
 
 #===============
 # Set JAVA_HOME
