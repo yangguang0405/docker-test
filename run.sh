@@ -8,4 +8,4 @@ echo $PWD
 echo $APPID
 echo $APPSECRECT
 
-java -jar "$PWD/agent/versions/1.0.0/pc-agent.jar" "$PWD/agent" "/tmp/Testude 365/agent" "1.0.0" "https://www.testude365.com:8081" "https://www.testude365.com:8082/v1" "0" "$APPID" "$APPSECRECT"
+java -jar "$PWD/agent/versions/1.0.0/pc-agent.jar" "Console" "$PWD/agent" "/tmp/Testude 365/agent" "1.0.0" "https://www.testude365.com:8081" "https://www.testude365.com:8082/v1" "0" "$APPID" "$APPSECRECT"
